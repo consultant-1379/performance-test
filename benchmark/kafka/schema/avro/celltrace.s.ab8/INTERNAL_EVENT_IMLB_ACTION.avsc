@@ -1,0 +1,63 @@
+{
+  "type": "record",
+  "name": "INTERNAL_EVENT_IMLB_ACTION",
+  "namespace": "celltrace.s.ab8",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "LB_ROLE",
+      "type": "int"
+    },
+    {
+      "name": "LB_THRESH_SERVING_LOW",
+      "type": "int"
+    },
+    {
+      "name": "LB_HPC_MIN_HYST",
+      "type": "int"
+    },
+    {
+      "name": "LB_THRESH_X_HIGH",
+      "type": "int"
+    },
+    {
+      "name": "LB_LPC_MIN_HYST",
+      "type": "int"
+    }
+  ]
+}

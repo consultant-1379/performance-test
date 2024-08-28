@@ -1,0 +1,223 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PROC_ERAB_MODIFY",
+  "namespace": "celltrace.s.ab8",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_RESULT_16",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_QCI_16",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MILLISEC",
+      "type": "int"
+    }
+  ]
+}

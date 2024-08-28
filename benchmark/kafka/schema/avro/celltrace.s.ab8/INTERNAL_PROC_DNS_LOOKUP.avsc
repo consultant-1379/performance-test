@@ -1,0 +1,331 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PROC_DNS_LOOKUP",
+  "namespace": "celltrace.s.ab8",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_STOP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "DNS_LOOKUP_ENDPOINT_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "DNS_LOOKUP_RESULT",
+      "type": "int"
+    },
+    {
+      "name": "DOMAIN_NAME",
+      "type": "string"
+    },
+    {
+      "name": "DNS_LOOKUP_NUMBER_IP_ADDRESSES",
+      "type": "int"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS1",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS2",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS3",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS4",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS5",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS6",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS7",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS8",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS9",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS10",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS11",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS12",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS13",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS14",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS15",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS16",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS17",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS18",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS19",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS20",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS21",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS22",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS23",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS24",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS25",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS26",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS27",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS28",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS29",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS30",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS31",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS32",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS33",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS34",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS35",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS36",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS37",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS38",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS39",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS40",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS41",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS42",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS43",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS44",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS45",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS46",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS47",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS48",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS49",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS50",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS51",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS52",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS53",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS54",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS55",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS56",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS57",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS58",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS59",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS60",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS61",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS62",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS63",
+      "type": "bytes"
+    },
+    {
+      "name": "DNS_LOOKUP_IP_ADDRESS64",
+      "type": "bytes"
+    }
+  ]
+}

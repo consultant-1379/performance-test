@@ -1,0 +1,195 @@
+{
+  "type": "record",
+  "name": "INTERNAL_EVENT_ERAB_DATA_INFO",
+  "namespace": "celltrace.m.v1",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "int"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "ERAB_QCI_1",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_2",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_3",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_4",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_5",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_6",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_7",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_8",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_9",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_10",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_11",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_12",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_13",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_14",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_15",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_16",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PROCEDURE",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_1",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_2",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_3",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_4",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_5",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_6",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_7",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_8",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_9",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_10",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_11",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_12",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_13",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_14",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_15",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_16",
+      "type": "int"
+    }
+  ]
+}

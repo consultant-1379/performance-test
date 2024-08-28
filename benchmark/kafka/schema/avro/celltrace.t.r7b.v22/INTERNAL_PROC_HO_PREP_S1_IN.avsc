@@ -1,0 +1,511 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PROC_HO_PREP_S1_IN",
+  "namespace": "celltrace.t.r7b.v22",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "HO_SOURCE_OR_TARGET_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "NEIGHBOR_CGI",
+      "type": "bytes"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_RESULT_16",
+      "type": "int"
+    },
+    {
+      "name": "RANDOM_ACCESS_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_IN_PREP_ERAB_REQ_16",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_ARP_16",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PCI_16",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_SETUP_REQ_PVI_16",
+      "type": "int"
+    },
+    {
+      "name": "SERVING_PLMN_ID",
+      "type": "bytes"
+    },
+    {
+      "name": "SPID_VALUE",
+      "type": "int"
+    },
+    {
+      "name": "PREP_IN_RESULT_UE_CTXT",
+      "type": "int"
+    },
+    {
+      "name": "P_3GPP_CAUSE_GROUP",
+      "type": "int"
+    },
+    {
+      "name": "P_3GPP_CAUSE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_ADM_CTRL_REJECTING_MSR_PREEMPTION_ATTEMPTED_16",
+      "type": "int"
+    }
+  ]
+}

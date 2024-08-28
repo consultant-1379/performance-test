@@ -1,0 +1,71 @@
+{
+  "type": "record",
+  "name": "INTERNAL_EVENT_LOAD_CONTROL_STATE_TRANSITION",
+  "namespace": "celltrace.s.ab8",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ST_TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "ST_TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "ST_TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "ST_TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "TRANSITION_TRIGGER",
+      "type": "int"
+    },
+    {
+      "name": "OLD_STATE",
+      "type": "int"
+    },
+    {
+      "name": "NEW_STATE",
+      "type": "int"
+    }
+  ]
+}

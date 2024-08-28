@@ -1,0 +1,71 @@
+{
+  "type": "record",
+  "name": "INTERNAL_EVENT_X2AP_PROTOCOL_ERROR",
+  "namespace": "celltrace.s.aa7",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "GENBID",
+      "type": "bytes"
+    },
+    {
+      "name": "ENB_IP_ADDRESS",
+      "type": "bytes"
+    },
+    {
+      "name": "PROTOCOL_ERROR_TYPE_3GPP",
+      "type": "int"
+    },
+    {
+      "name": "PROTOCOL_ERROR_TYPE_INTERNAL",
+      "type": "int"
+    },
+    {
+      "name": "L3MESSAGE_LENGTH",
+      "type": "int"
+    },
+    {
+      "name": "L3MESSAGE_CONTENTS",
+      "type": "bytes"
+    },
+    {
+      "name": "INFORMATION_ELEMENT_ID",
+      "type": "int"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "type": "record",
+  "name": "NET_TG_SERVICE_REQUEST_CORR",
+  "namespace": "correlation",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "DURATION",
+      "type": "long"
+    },
+    {
+      "name": "IMSI",
+      "type": "long"
+    },
+    {
+      "name": "IMEISV",
+      "type": "long"
+    },
+    {
+      "name": "IMEITAC",
+      "type": "long"
+    },
+    {
+      "name": "ENB_ID",
+      "type": "long"
+    },
+    {
+      "name": "CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "PAGING_ATTEMPTS",
+      "type": "long"
+    },
+    {
+      "name": "PAGING",
+      "type": "boolean"
+    },
+    {
+      "name": "RESULT",
+      "type": "string"
+    },
+    {
+      "name": "MME_CAUSE_CODE",
+      "type": "string"
+    },
+    {
+      "name": "MME_SUB_CAUSE_CODE",
+      "type": "string"
+    },
+    {
+      "name": "MME_CAUSE_PROT_TYPE",
+      "type": "string"
+    },
+    {
+      "name": "TYPE",
+      "type": "string"
+    },
+    {
+      "name": "MTMSI",
+      "type": "long"
+    },
+    {
+      "name": "ECI",
+      "type": "long"
+    },
+    {
+      "name": "MCC",
+      "type": "int"
+    },
+    {
+      "name": "MNC",
+      "type": "int"
+    },
+    {
+      "name": "TAC",
+      "type": "int"
+    },
+    {
+      "name": "APN",
+      "type": "string"
+    },
+    {
+      "name": "MMEGI",
+      "type": "int"
+    },
+    {
+      "name": "MMEC",
+      "type": "int"
+    },
+    {
+      "name": "SGW_ADDR",
+      "type": "string"
+    },
+    {
+      "name": "UE_ADDR",
+      "type": "string"
+    },
+    {
+      "name": "BEARERS_EPS_BEARER_ID",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_BEARER_QCI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_BEARER_CAUSE",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_DEFAULT_BEARER_ID",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "END_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "CORRELATION_TIME",
+      "type": "long"
+    }
+  ]
+}

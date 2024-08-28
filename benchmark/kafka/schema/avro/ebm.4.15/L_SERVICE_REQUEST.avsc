@@ -1,0 +1,182 @@
+{
+  "type": "record",
+  "name": "L_SERVICE_REQUEST",
+  "namespace": "ebm.4.15",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "L_HEADER_HEADER_EVENT_ID",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_EVENT_RESULT",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_TIME_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_TIME_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_TIME_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_TIME_MILLISECOND",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_DURATION",
+      "type": "int"
+    },
+    {
+      "name": "PAGING_ATTEMPTS",
+      "type": "int"
+    },
+    {
+      "name": "L_CAUSE_PROT_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "SUB_CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "TAI_MCC",
+      "type": "int"
+    },
+    {
+      "name": "TAI_MNC",
+      "type": "int"
+    },
+    {
+      "name": "TAI_TAC",
+      "type": "int"
+    },
+    {
+      "name": "ECI",
+      "type": "long"
+    },
+    {
+      "name": "MMEI_MMEGI",
+      "type": "int"
+    },
+    {
+      "name": "MMEI_MMEC",
+      "type": "int"
+    },
+    {
+      "name": "UEID_MTMSI",
+      "type": "long"
+    },
+    {
+      "name": "UEID_IMSI",
+      "type": "string"
+    },
+    {
+      "name": "UEID_IMEISV",
+      "type": "string"
+    },
+    {
+      "name": "S_GW_IPV4",
+      "type": "string"
+    },
+    {
+      "name": "S_GW_IPV6",
+      "type": "string"
+    },
+    {
+      "name": "BEARERS_EPS_BEARER_ID",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_BEARER_QCI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_ARP_PL",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_ARP_PCI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_ARP_PVI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_GBR_UL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "BEARERS_GBR_DL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "BEARERS_BEARER_CAUSE",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_DEFAULT_BEARER_ID",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "CS_FALLBACK_SERVICE_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "SERVICE_REQUEST_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "L_SERVICE_REQ_TRIGGER",
+      "type": "int"
+    },
+    {
+      "name": "REQUEST_RETRIES",
+      "type": "int"
+    }
+  ]
+}

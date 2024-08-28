@@ -1,0 +1,71 @@
+{
+  "type": "record",
+  "name": "INTERNAL_EVENT_MIMO_SLEEP_DETECTED",
+  "namespace": "celltrace.t.r7b.v22",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "MIMO_SLEEP_DET_TX_CONFIG",
+      "type": "int"
+    },
+    {
+      "name": "MIMO_SLEEP_DET_DL_PRB_USAGE",
+      "type": "int"
+    },
+    {
+      "name": "MIMO_SLEEP_DET_DL_PRB_THRESHOLD",
+      "type": "int"
+    },
+    {
+      "name": "MIMO_SLEEP_DET_UES",
+      "type": "int"
+    },
+    {
+      "name": "MIMO_SLEEP_DET_UES_THRESHOLD",
+      "type": "int"
+    },
+    {
+      "name": "MIMO_SLEEP_DET_DURATION",
+      "type": "int"
+    },
+    {
+      "name": "MIMO_SLEEP_DET_DIRECTION",
+      "type": "int"
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PER_RADIO_CELL_NOISE_INTERFERENCE_PRB",
+  "namespace": "celltrace.s.ab8",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB1",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB2",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB3",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB4",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB5",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB6",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB7",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB8",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB9",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB10",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB11",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB12",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB13",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB14",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB15",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB16",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB17",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB18",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB19",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB20",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB21",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB22",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB23",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB24",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB25",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB26",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB27",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB28",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB29",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB30",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB31",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB32",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB33",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB34",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB35",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB36",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB37",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB38",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB39",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB40",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB41",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB42",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB43",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB44",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB45",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB46",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB47",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB48",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB49",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB50",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB51",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB52",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB53",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB54",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB55",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB56",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB57",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB58",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB59",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB60",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB61",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB62",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB63",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB64",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB65",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB66",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB67",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB68",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB69",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB70",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB71",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB72",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB73",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB74",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB75",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB76",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB77",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB78",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB79",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB80",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB81",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB82",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB83",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB84",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB85",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB86",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB87",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB88",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB89",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB90",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB91",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB92",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB93",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB94",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB95",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB96",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB97",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB98",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB99",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_SUM_PRB100",
+      "type": "long"
+    }
+  ]
+}

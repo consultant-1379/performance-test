@@ -1,0 +1,67 @@
+{
+  "type": "record",
+  "name": "INTERNAL_TESTEVENT_BB_CELL",
+  "namespace": "celltrace.s.aa3",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "PER_TEST_CELL_COUNTER1",
+      "type": "long"
+    },
+    {
+      "name": "PER_TEST_CELL_COUNTER2",
+      "type": "long"
+    },
+    {
+      "name": "PER_TEST_CELL_COUNTER3",
+      "type": "long"
+    },
+    {
+      "name": "PER_TEST_CELL_COUNTER4",
+      "type": "long"
+    },
+    {
+      "name": "PER_TEST_CELL_COUNTER5",
+      "type": "long"
+    },
+    {
+      "name": "EUTRANCELL_FROID",
+      "type": "bytes"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "type": "record",
+  "name": "DETACH",
+  "namespace": "ebm.4.21",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "L_HEADER_HEADER_EVENT_ID",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_EVENT_RESULT",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_TIME_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_TIME_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_TIME_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_TIME_MILLISECOND",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_DURATION",
+      "type": "int"
+    },
+    {
+      "name": "RAT",
+      "type": "int"
+    },
+    {
+      "name": "DETACH_TRIGGER",
+      "type": "int"
+    },
+    {
+      "name": "DETACH_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "CAUSE_PROT_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "SUB_CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_MCC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_MNC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_LAC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_RAC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_CI",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_SAC",
+      "type": "int"
+    },
+    {
+      "name": "MSID_IMSI",
+      "type": "string"
+    },
+    {
+      "name": "MSID_PTMSI",
+      "type": "long"
+    },
+    {
+      "name": "MSID_IMEISV",
+      "type": "string"
+    },
+    {
+      "name": "MSID_MSISDN",
+      "type": "string"
+    },
+    {
+      "name": "HLR",
+      "type": "string"
+    }
+  ]
+}

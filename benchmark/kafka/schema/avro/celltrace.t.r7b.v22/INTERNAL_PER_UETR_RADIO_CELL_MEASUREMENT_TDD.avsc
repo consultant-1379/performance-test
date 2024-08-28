@@ -1,0 +1,71 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PER_UETR_RADIO_CELL_MEASUREMENT_TDD",
+  "namespace": "celltrace.t.r7b.v22",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_SF_1",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_SF_2",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_SF_3",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_SF_6",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_SF_7",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_SF_8",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_SF_SAMP",
+      "type": "long"
+    }
+  ]
+}

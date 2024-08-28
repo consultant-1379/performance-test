@@ -1,0 +1,367 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PER_RADIO_UE_MEASUREMENT",
+  "namespace": "celltrace.s.ab3",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "RANK_TX_0",
+      "type": "long"
+    },
+    {
+      "name": "RANK_TX_1",
+      "type": "long"
+    },
+    {
+      "name": "RANK_TX_2",
+      "type": "long"
+    },
+    {
+      "name": "RANK_TX_3",
+      "type": "long"
+    },
+    {
+      "name": "RANK_TX_4",
+      "type": "long"
+    },
+    {
+      "name": "RANK_TX_5",
+      "type": "long"
+    },
+    {
+      "name": "RANK_TX_6",
+      "type": "long"
+    },
+    {
+      "name": "RANK_TX_7",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_0",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_1",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_2",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_3",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_4",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_5",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_6",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_7",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_8",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_9",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_10",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_11",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_12",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_13",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_14",
+      "type": "long"
+    },
+    {
+      "name": "CQI_REPORTED_15",
+      "type": "long"
+    },
+    {
+      "name": "RANK_REPORTED_0",
+      "type": "long"
+    },
+    {
+      "name": "RANK_REPORTED_1",
+      "type": "long"
+    },
+    {
+      "name": "TBSPWRRESTRICTED",
+      "type": "long"
+    },
+    {
+      "name": "TBSPWRUNRESTRICTED",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_0",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_1",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_2",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_3",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_4",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_5",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_6",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_7",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_8",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_9",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_10",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_11",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_12",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_13",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_14",
+      "type": "long"
+    },
+    {
+      "name": "CQI2_REPORTED_15",
+      "type": "long"
+    },
+    {
+      "name": "OUT_LOOP_ADJ_DL_0",
+      "type": "long"
+    },
+    {
+      "name": "OUT_LOOP_ADJ_DL_1",
+      "type": "long"
+    },
+    {
+      "name": "OUT_LOOP_ADJ_DL_2",
+      "type": "long"
+    },
+    {
+      "name": "OUT_LOOP_ADJ_DL_3",
+      "type": "long"
+    },
+    {
+      "name": "OUT_LOOP_ADJ_DL_4",
+      "type": "long"
+    },
+    {
+      "name": "OUT_LOOP_ADJ_DL_5",
+      "type": "long"
+    },
+    {
+      "name": "OUT_LOOP_ADJ_DL_6",
+      "type": "long"
+    },
+    {
+      "name": "OUT_LOOP_ADJ_DL_7",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUSCH_0",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUSCH_1",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUSCH_2",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUSCH_3",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUSCH_4",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUSCH_5",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUSCH_6",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUSCH_7",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUCCH_0",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUCCH_1",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUCCH_2",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUCCH_3",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUCCH_4",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUCCH_5",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUCCH_6",
+      "type": "long"
+    },
+    {
+      "name": "SINR_MEAS_PUCCH_7",
+      "type": "long"
+    },
+    {
+      "name": "DELTA_SINR_MEAS_PUSCH_0",
+      "type": "long"
+    },
+    {
+      "name": "DELTA_SINR_MEAS_PUSCH_1",
+      "type": "long"
+    },
+    {
+      "name": "DELTA_SINR_MEAS_PUSCH_2",
+      "type": "long"
+    },
+    {
+      "name": "DELTA_SINR_MEAS_PUSCH_3",
+      "type": "long"
+    },
+    {
+      "name": "DELTA_SINR_MEAS_PUSCH_4",
+      "type": "long"
+    },
+    {
+      "name": "DELTA_SINR_MEAS_PUSCH_5",
+      "type": "long"
+    },
+    {
+      "name": "DELTA_SINR_MEAS_PUSCH_6",
+      "type": "long"
+    },
+    {
+      "name": "DELTA_SINR_MEAS_PUSCH_7",
+      "type": "long"
+    }
+  ]
+}

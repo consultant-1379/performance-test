@@ -1,0 +1,155 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PER_RADIO_CELL_CQI_SUBBAND",
+  "namespace": "celltrace.s.ab11",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND0",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND1",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND2",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND3",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND4",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND5",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND6",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND7",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND8",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND9",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND10",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND11",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND12",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND0",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND1",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND2",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND3",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND4",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND5",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND6",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND7",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND8",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND9",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND10",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND11",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND12",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI_SUBBAND_SAMP",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_CQI2_SUBBAND_SAMP",
+      "type": "long"
+    }
+  ]
+}

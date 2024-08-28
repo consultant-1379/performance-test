@@ -1,0 +1,259 @@
+{
+  "type": "record",
+  "name": "LTE_USER_SESSION",
+  "namespace": "correlation.1.1",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "START_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "END_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "DURATION",
+      "type": "long"
+    },
+    {
+      "name": "IMSI",
+      "type": "long"
+    },
+    {
+      "name": "IMEISV",
+      "type": "long"
+    },
+    {
+      "name": "TAC",
+      "type": "long"
+    },
+    {
+      "name": "ENB_ID",
+      "type": "long"
+    },
+    {
+      "name": "CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "string"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "ASR",
+      "type": "int"
+    },
+    {
+      "name": "FGI",
+      "type": "string"
+    },
+    {
+      "name": "UE_CAPABILITY",
+      "type": "int"
+    },
+    {
+      "name": "TOTAL_SAMPLES",
+      "type": "int"
+    },
+    {
+      "name": "CSFB_ATT_COUNT",
+      "type": "int"
+    },
+    {
+      "name": "TRIGGER_NODE",
+      "type": "int"
+    },
+    {
+      "name": "UE_CTXT_RELEASE_CAUSE_S1",
+      "type": "int"
+    },
+    {
+      "name": "UE_CTXT_RELEASE_CAUSE",
+      "type": "int"
+    },
+    {
+      "name": "VOL_TOTAL_DL",
+      "type": "double"
+    },
+    {
+      "name": "VOL_TOTAL_UL",
+      "type": "long"
+    },
+    {
+      "name": "VOL_THP_DL",
+      "type": "double"
+    },
+    {
+      "name": "VOL_THP_UL",
+      "type": "double"
+    },
+    {
+      "name": "TIME_THP_DL",
+      "type": "double"
+    },
+    {
+      "name": "TIME_THP_UL",
+      "type": "double"
+    },
+    {
+      "name": "THP_AVE_DL",
+      "type": "double"
+    },
+    {
+      "name": "THP_AVE_UL",
+      "type": "double"
+    },
+    {
+      "name": "UL_RATE_SHAPING_TIME",
+      "type": "long"
+    },
+    {
+      "name": "UE_TRAF_REP_SAMPLES",
+      "type": "int"
+    },
+    {
+      "name": "TOTAL_SCHED_RESTRICT_UE_CAT_DL",
+      "type": "long"
+    },
+    {
+      "name": "TOTAL_SCHED_RESTRICT_UE_CAT_UL",
+      "type": "long"
+    },
+    {
+      "name": "TOTAL_SCHED_ACTIVITY_UE_DL",
+      "type": "long"
+    },
+    {
+      "name": "TOTAL_SCHED_ACTIVITY_UE_UL",
+      "type": "long"
+    },
+    {
+      "name": "PACKET_TR_DL",
+      "type": "long"
+    },
+    {
+      "name": "PACKET_REC_DL",
+      "type": "long"
+    },
+    {
+      "name": "PACKET_LOST_HO_DL",
+      "type": "long"
+    },
+    {
+      "name": "PACKET_LOST_PELR_DL",
+      "type": "long"
+    },
+    {
+      "name": "PACKET_REC_UL",
+      "type": "long"
+    },
+    {
+      "name": "PACKET_LOST_UL",
+      "type": "long"
+    },
+    {
+      "name": "PACKET_LOST_PERL_UU_DL",
+      "type": "long"
+    },
+    {
+      "name": "PACKET_LOST_PELR_UU_DL_RLCUM",
+      "type": "long"
+    },
+    {
+      "name": "PACKET_FWD_DL",
+      "type": "long"
+    },
+    {
+      "name": "TOTAL_RLC_ACK_DL",
+      "type": "long"
+    },
+    {
+      "name": "TOTAL_RLC_NACK_DL",
+      "type": "long"
+    },
+    {
+      "name": "TOTAL_RLC_ACK_UL",
+      "type": "long"
+    },
+    {
+      "name": "TOTAL_RLC_NACK_UL",
+      "type": "long"
+    },
+    {
+      "name": "RADIOTHP_VOL_DL",
+      "type": "long"
+    },
+    {
+      "name": "RADIOTHP_RES_DL",
+      "type": "long"
+    },
+    {
+      "name": "RADIO_VOL_UL",
+      "type": "long"
+    },
+    {
+      "name": "RADIOTHP_RES_UL",
+      "type": "long"
+    },
+    {
+      "name": "CQI_AVG",
+      "type": "double"
+    },
+    {
+      "name": "CQI_REPORTED",
+      "type": "string"
+    },
+    {
+      "name": "POWER_RESTRICT",
+      "type": "long"
+    },
+    {
+      "name": "POWER_NO_RESTRICT",
+      "type": "long"
+    },
+    {
+      "name": "RSRP_AVG",
+      "type": "double"
+    },
+    {
+      "name": "RSRQ_AVG",
+      "type": "double"
+    },
+    {
+      "name": "RSRP_RSRQ_REPORTED",
+      "type": "string"
+    },
+    {
+      "name": "UE_MOBILITY_SAMPLES",
+      "type": "int"
+    },
+    {
+      "name": "ACTIVE_UE_DL_AVG",
+      "type": "double"
+    },
+    {
+      "name": "ACTIVE_UE_UL_AVG",
+      "type": "double"
+    }
+  ]
+}

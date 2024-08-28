@@ -1,0 +1,148 @@
+{
+  "type": "record",
+  "name": "SERVICE_REQUEST_CORR",
+  "namespace": "correlation.1.1",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "START_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "END_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "IMSI",
+      "type": "long"
+    },
+    {
+      "name": "IMEISV",
+      "type": "long"
+    },
+    {
+      "name": "MTMSI",
+      "type": "long"
+    },
+    {
+      "name": "IMEITAC",
+      "type": "long"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "string"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "PAGING_ATTEMPTS",
+      "type": "int"
+    },
+    {
+      "name": "PAGING",
+      "type": "boolean"
+    },
+    {
+      "name": "RESULT",
+      "type": "string"
+    },
+    {
+      "name": "ENB_RESULT",
+      "type": "string"
+    },
+    {
+      "name": "MME_RESULT",
+      "type": "string"
+    },
+    {
+      "name": "ENB_RESULT_CAUSE",
+      "type": "string"
+    },
+    {
+      "name": "MME_CAUSE_CODE",
+      "type": "string"
+    },
+    {
+      "name": "MME_SUB_CAUSE_CODE",
+      "type": "string"
+    },
+    {
+      "name": "MME_CAUSE_PROT_TYPE",
+      "type": "string"
+    },
+    {
+      "name": "APN",
+      "type": "string"
+    },
+    {
+      "name": "MCC",
+      "type": "int"
+    },
+    {
+      "name": "MNC",
+      "type": "int"
+    },
+    {
+      "name": "TAC",
+      "type": "int"
+    },
+    {
+      "name": "MSISDN",
+      "type": "string"
+    },
+    {
+      "name": "SGW_ADDR",
+      "type": "string"
+    },
+    {
+      "name": "UE_ADDR",
+      "type": "string"
+    },
+    {
+      "name": "MME_NAME",
+      "type": "string"
+    },
+    {
+      "name": "BEARER_QCI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARER_ID",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARER_CAUSE",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    }
+  ]
+}

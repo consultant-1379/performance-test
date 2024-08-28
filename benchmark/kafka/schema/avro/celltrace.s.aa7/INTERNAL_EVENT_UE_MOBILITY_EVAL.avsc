@@ -1,0 +1,107 @@
+{
+  "type": "record",
+  "name": "INTERNAL_EVENT_UE_MOBILITY_EVAL",
+  "namespace": "celltrace.s.aa7",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "MOBILITY_TRIGGER",
+      "type": "int"
+    },
+    {
+      "name": "TRIGGERING_MEAS_ID",
+      "type": "int"
+    },
+    {
+      "name": "MOBILITY_DECISION",
+      "type": "int"
+    },
+    {
+      "name": "MEAS_ID_BITMAP",
+      "type": "long"
+    },
+    {
+      "name": "REDIRECT_RELEASE_INFO",
+      "type": "int"
+    },
+    {
+      "name": "RELEASE_WITH_REDIRECT_REASON",
+      "type": "int"
+    },
+    {
+      "name": "SPID_VALUE",
+      "type": "int"
+    },
+    {
+      "name": "SERVING_RSRP",
+      "type": "int"
+    },
+    {
+      "name": "SERVING_RSRQ",
+      "type": "int"
+    },
+    {
+      "name": "NEIGHBOR_RSRP",
+      "type": "int"
+    },
+    {
+      "name": "NEIGHBOR_RSRQ",
+      "type": "int"
+    }
+  ]
+}

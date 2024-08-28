@@ -1,0 +1,199 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PROC_HO_PREP_X2_OUT",
+  "namespace": "celltrace.t.r5a.v21",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "HO_SOURCE_OR_TARGET_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "HO_TARGET_SELECTION_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "NEIGHBOR_CGI",
+      "type": "bytes"
+    },
+    {
+      "name": "PROC_HO_PREP_OUT_ATTEMPT_CAUSE",
+      "type": "int"
+    },
+    {
+      "name": "PROC_HO_PREP_OUT_RESULT",
+      "type": "int"
+    },
+    {
+      "name": "HO_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "HO_OUT_PREP_ERAB_REQ_BITMAP",
+      "type": "int"
+    },
+    {
+      "name": "HO_OUT_PREP_ERAB_FAIL_BITMAP",
+      "type": "int"
+    },
+    {
+      "name": "P_3GPP_CAUSE_GROUP",
+      "type": "int"
+    },
+    {
+      "name": "P_3GPP_CAUSE",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_HO_PREP_QCI_16",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MILLISEC",
+      "type": "int"
+    }
+  ]
+}

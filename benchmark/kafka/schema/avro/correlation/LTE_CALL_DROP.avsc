@@ -1,0 +1,99 @@
+{
+  "type": "record",
+  "name": "LTE_CALL_DROP",
+  "namespace": "correlation",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "DURATION",
+      "type": "long"
+    },
+    {
+      "name": "END_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "IMSI",
+      "type": "string"
+    },
+    {
+      "name": "IMEISV",
+      "type": "string"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENB_ID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "APN",
+      "type": "string"
+    },
+    {
+      "name": "TYPE",
+      "type": "int"
+    },
+    {
+      "name": "TRIGGERING_NODE",
+      "type": "int"
+    },
+    {
+      "name": "RELEASE_CAUSE",
+      "type": "int"
+    },
+    {
+      "name": "INTERNAL_RELEASE_CAUSE",
+      "type": "int"
+    },
+    {
+      "name": "RESULT",
+      "type": "long"
+    },
+    {
+      "name": "ENB_RESULT",
+      "type": "long"
+    },
+    {
+      "name": "MME_RESULT",
+      "type": "long"
+    },
+    {
+      "name": "ENB_RESULT_CAUSE",
+      "type": "long"
+    },
+    {
+      "name": "MME_CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "MME_SUB_CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "MME_CAUSE_PROT_TYPE",
+      "type": "int"
+    }
+  ]
+}

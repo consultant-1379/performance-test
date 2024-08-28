@@ -1,0 +1,387 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PROC_UE_CTXT_RELEASE",
+  "namespace": "celltrace.m.v1",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "int"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "TRIGGERING_NODE",
+      "type": "int"
+    },
+    {
+      "name": "S1_RELEASE_CAUSE",
+      "type": "int"
+    },
+    {
+      "name": "INTERNAL_RELEASE_CAUSE",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_DATA_LOST_BITMAP",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_DATA_LOST",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_RELEASE_SUCC",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_1",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_2",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_3",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_4",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_5",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_6",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_7",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_8",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_9",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_10",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_11",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_12",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_13",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_14",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_15",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_16",
+      "type": "int"
+    },
+    {
+      "name": "HO_OUT_PREP_ERAB_FAIL_BITMAP",
+      "type": "int"
+    },
+    {
+      "name": "HO_OUT_PREP_ERAB_FAIL",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_HO_PREP_DATA_LOST",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_1",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_2",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_3",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_4",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_5",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_6",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_7",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_8",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_9",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_10",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_11",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_12",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_13",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_14",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_15",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_16",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_1",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_2",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_3",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_4",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_5",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_6",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_7",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_8",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_9",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_10",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_11",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_12",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_13",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_14",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_15",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PCI_16",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_1",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_2",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_3",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_4",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_5",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_6",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_7",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_8",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_9",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_10",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_11",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_12",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_13",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_14",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_15",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PVI_16",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MILLISEC",
+      "type": "int"
+    }
+  ]
+}

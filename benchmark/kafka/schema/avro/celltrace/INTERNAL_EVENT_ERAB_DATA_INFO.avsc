@@ -1,0 +1,463 @@
+{
+  "type": "record",
+  "name": "INTERNAL_EVENT_ERAB_DATA_INFO",
+  "namespace": "celltrace",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_RECONF_MEAS_QCI_16",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_PROCEDURE",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_ARP_16",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_1",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_2",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_3",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_4",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_5",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_6",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_7",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_8",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_9",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_10",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_11",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_12",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_13",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_14",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_15",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_MODIFY_REQ_GBR_16",
+      "type": "long"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_1",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_2",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_3",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_4",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_5",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_6",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_7",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_8",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_9",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_10",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_11",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_12",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_13",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_14",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_15",
+      "type": "int"
+    },
+    {
+      "name": "EVENT_ARRAY_ERAB_REMAP_TO_QCI0_CAUSE_16",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ROHC_FAIL_BITMAP",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ROHC_FAIL_CID",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ROHC_FAIL_UE_CAP",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_1",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_2",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_3",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_4",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_5",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_6",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_7",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_8",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_9",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_10",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_11",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_12",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_13",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_14",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_15",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_QCI_16",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_1",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_2",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_3",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_4",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_5",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_6",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_7",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_8",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_9",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_10",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_11",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_12",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_13",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_14",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_15",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ARP_16",
+      "type": "int"
+    }
+  ]
+}

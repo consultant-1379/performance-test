@@ -1,0 +1,255 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PER_RADIO_CELL_MEASUREMENT",
+  "namespace": "celltrace.t.r5a.v21",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_0",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_1",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_2",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_3",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_4",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_5",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_6",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_7",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_8",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_9",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_10",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_11",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_12",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_13",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_14",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_15",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_0",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_1",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_2",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_3",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_4",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_5",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_6",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_7",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_8",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_9",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_10",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_11",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_12",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_13",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_14",
+      "type": "long"
+    },
+    {
+      "name": "NOISEINTERF_MEAS_PUCCH_15",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_0",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_1",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_2",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_3",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_4",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_5",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_6",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_7",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_8",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_9",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_10",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_11",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_12",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_13",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_14",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_15",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_16",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_17",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_18",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_19",
+      "type": "long"
+    },
+    {
+      "name": "UL_UE_PATHLOSS_20",
+      "type": "long"
+    }
+  ]
+}

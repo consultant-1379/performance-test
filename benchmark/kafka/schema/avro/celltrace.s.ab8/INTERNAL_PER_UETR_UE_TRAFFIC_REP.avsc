@@ -1,0 +1,223 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PER_UETR_UE_TRAFFIC_REP",
+  "namespace": "celltrace.s.ab8",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "PER_UE_THP_PDCPVOL_TRUNK_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_THP_TIME_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_THP_PDCPVOL_TRUNK_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_THP_TIME_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_SCHED_RESTRICT_UE_CAT_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_SCHED_RESTRICT_UE_CAT_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_SCHED_ACTIVITY_UE_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_SCHED_ACTIVITY_UE_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_PDCP_SRB_ACKVOL_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_PDCP_SRB_TRANSVOL_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_PDCP_SRB_RECVOL_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_RLC_ACK_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_RLC_NACK_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_RLC_ACK_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_RLC_NACK_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_DL_MAC_DELAY",
+      "type": "long"
+    },
+    {
+      "name": "UE_HARQ_DL_ACK_QPSK",
+      "type": "long"
+    },
+    {
+      "name": "UE_HARQ_DL_NACK_QPSK",
+      "type": "long"
+    },
+    {
+      "name": "UE_HARQ_UL_SUCC_QPSK",
+      "type": "long"
+    },
+    {
+      "name": "UE_HARQ_UL_FAIL_QPSK",
+      "type": "long"
+    },
+    {
+      "name": "UE_HARQ_DL_ACK_16QAM",
+      "type": "long"
+    },
+    {
+      "name": "UE_HARQ_DL_NACK_16QAM",
+      "type": "long"
+    },
+    {
+      "name": "UE_HARQ_UL_SUCC_16QAM",
+      "type": "long"
+    },
+    {
+      "name": "UE_HARQ_UL_FAIL_16QAM",
+      "type": "long"
+    },
+    {
+      "name": "UE_HARQ_DL_ACK_64QAM",
+      "type": "long"
+    },
+    {
+      "name": "UE_HARQ_DL_NACK_64QAM",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_MAC_DTX_UL_QPSK",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_MAC_DTX_DL_QPSK",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_MAC_DTX_DL_16QAM",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_MAC_DTX_UL_16QAM",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_MAC_DTX_DL_64QAM",
+      "type": "long"
+    },
+    {
+      "name": "RADIOTHP_VOL_DL",
+      "type": "long"
+    },
+    {
+      "name": "RADIOTHP_RES_DL",
+      "type": "long"
+    },
+    {
+      "name": "RADIOTHP_VOL_UL",
+      "type": "long"
+    },
+    {
+      "name": "RADIOTHP_RES_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_PACKET_FWD_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_THP_DL_DRB",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_THP_UL_DRB",
+      "type": "long"
+    },
+    {
+      "name": "PDCPSDU_VOIP_ULPDB_OK",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_RATE_SHAPE_TIME_UL",
+      "type": "long"
+    }
+  ]
+}

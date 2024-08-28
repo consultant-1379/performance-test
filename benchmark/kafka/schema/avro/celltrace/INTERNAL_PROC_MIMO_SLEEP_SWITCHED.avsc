@@ -1,0 +1,87 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PROC_MIMO_SLEEP_SWITCHED",
+  "namespace": "celltrace",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_START_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_START_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_STOP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "MIMO_SLEEP_CURRENT_TX_CONFIG",
+      "type": "int"
+    },
+    {
+      "name": "MIMO_SLEEP_DESIRED_TX_CONFIG",
+      "type": "int"
+    },
+    {
+      "name": "MIMO_SLEEP_SWITCH_RESULT",
+      "type": "int"
+    }
+  ]
+}

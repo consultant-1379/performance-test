@@ -1,0 +1,203 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PER_UETR_CAP_LICENSE_UTIL_REP",
+  "namespace": "celltrace.s.ab3",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_0",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_1",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_2",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_3",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_4",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_5",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_6",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_7",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_8",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_9",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_10",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_11",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_12",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_13",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_14",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_15",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_16",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_17",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_18",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_UL_CAP_DISTR_19",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_0",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_1",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_2",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_3",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_4",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_5",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_6",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_7",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_8",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_9",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_10",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_11",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_12",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_13",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_14",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_15",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_16",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_17",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_18",
+      "type": "long"
+    },
+    {
+      "name": "PER_LIC_DL_CAP_DISTR_19",
+      "type": "long"
+    }
+  ]
+}

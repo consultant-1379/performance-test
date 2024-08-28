@@ -1,0 +1,10 @@
+bootstrap.servers=ieatrcxb3651.athtem.eei.ericsson.se:9092
+enable.auto.commit=true
+auto.commit.interval.ms=1000
+session.timeout.ms=30000
+key.deserializer=org.apache.kafka.common.serialization.StringDeserializer
+value.deserializer=com.ericsson.aia.common.avro.kafka.decoder.KafkaGenericRecordDecoder
+group.id=scenario8
+test.topic=bev001
+test.NumberOfThreads=2
+compression.type=gzip

@@ -1,0 +1,71 @@
+{
+  "type": "record",
+  "name": "CTUM",
+  "namespace": "ctum",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_BYTE_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_BYTE_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_BYTE_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIME_MILLISECOND",
+      "type": "int"
+    },
+    {
+      "name": "ENODEB_ID_MACRO_ENODEB_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENODEB_ID_HOME_ENODEB_ID",
+      "type": "long"
+    },
+    {
+      "name": "IMSI",
+      "type": "string"
+    },
+    {
+      "name": "IMEISV",
+      "type": "string"
+    },
+    {
+      "name": "GUMMEI_PLMN_IDENTITY",
+      "type": "string"
+    },
+    {
+      "name": "GUMMEI_MME_GROUP_ID",
+      "type": "int"
+    },
+    {
+      "name": "GUMMEI_MME_CODE",
+      "type": "int"
+    },
+    {
+      "name": "MME_UE_S1AP_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENB_UE_S1AP_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENODEB_PLMN_ID",
+      "type": "string"
+    }
+  ]
+}

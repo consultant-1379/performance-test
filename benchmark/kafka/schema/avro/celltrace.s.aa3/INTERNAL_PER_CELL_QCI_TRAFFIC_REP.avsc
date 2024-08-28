@@ -1,0 +1,91 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PER_CELL_QCI_TRAFFIC_REP",
+  "namespace": "celltrace.s.aa3",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "QCI",
+      "type": "int"
+    },
+    {
+      "name": "PER_CELL_QCI_PRB_USED_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_CELL_QCI_PRB_USED_INIT_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_CELL_QCI_CCE_USED_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_CELL_QCI_CCE_USED_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_CELL_QCI_SESSION_TIME",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_UE_DL_SUM_QCI",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_DRB_DL_SUM_QCI",
+      "type": "long"
+    },
+    {
+      "name": "PER_PDCPROHC_HDRVOL_DL_RB_QCI",
+      "type": "long"
+    },
+    {
+      "name": "PER_PDCPROHC_CMPHDRVOL_DL_RB_QCI",
+      "type": "long"
+    },
+    {
+      "name": "PER_PDCPROHC_HDRVOL_UL_RB_QCI",
+      "type": "long"
+    },
+    {
+      "name": "PER_PDCPROHC_CMPHDRVOL_UL_RB_QCI",
+      "type": "long"
+    }
+  ]
+}

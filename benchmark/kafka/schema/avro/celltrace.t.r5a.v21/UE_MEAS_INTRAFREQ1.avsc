@@ -1,0 +1,175 @@
+{
+  "type": "record",
+  "name": "UE_MEAS_INTRAFREQ1",
+  "namespace": "celltrace.t.r5a.v21",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "MEASUREMENT_ID",
+      "type": "int"
+    },
+    {
+      "name": "REPORT_CONFIG_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "RSRPSERVING",
+      "type": "int"
+    },
+    {
+      "name": "RSRQSERVING",
+      "type": "int"
+    },
+    {
+      "name": "PHYSICAL_CELLID1",
+      "type": "int"
+    },
+    {
+      "name": "RSRPRESULT1",
+      "type": "int"
+    },
+    {
+      "name": "RSRQRESULT1",
+      "type": "int"
+    },
+    {
+      "name": "PHYSICAL_CELLID2",
+      "type": "int"
+    },
+    {
+      "name": "RSRPRESULT2",
+      "type": "int"
+    },
+    {
+      "name": "RSRQRESULT2",
+      "type": "int"
+    },
+    {
+      "name": "PHYSICAL_CELLID3",
+      "type": "int"
+    },
+    {
+      "name": "RSRPRESULT3",
+      "type": "int"
+    },
+    {
+      "name": "RSRQRESULT3",
+      "type": "int"
+    },
+    {
+      "name": "PHYSICAL_CELLID4",
+      "type": "int"
+    },
+    {
+      "name": "RSRPRESULT4",
+      "type": "int"
+    },
+    {
+      "name": "RSRQRESULT4",
+      "type": "int"
+    },
+    {
+      "name": "PHYSICAL_CELLID5",
+      "type": "int"
+    },
+    {
+      "name": "RSRPRESULT5",
+      "type": "int"
+    },
+    {
+      "name": "RSRQRESULT5",
+      "type": "int"
+    },
+    {
+      "name": "PHYSICAL_CELLID6",
+      "type": "int"
+    },
+    {
+      "name": "RSRPRESULT6",
+      "type": "int"
+    },
+    {
+      "name": "RSRQRESULT6",
+      "type": "int"
+    },
+    {
+      "name": "PHYSICAL_CELLID7",
+      "type": "int"
+    },
+    {
+      "name": "RSRPRESULT7",
+      "type": "int"
+    },
+    {
+      "name": "RSRQRESULT7",
+      "type": "int"
+    },
+    {
+      "name": "PHYSICAL_CELLID8",
+      "type": "int"
+    },
+    {
+      "name": "RSRPRESULT8",
+      "type": "int"
+    },
+    {
+      "name": "RSRQRESULT8",
+      "type": "int"
+    }
+  ]
+}

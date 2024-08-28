@@ -1,0 +1,187 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PER_UETR_CELL_TRAFFIC_REPORT",
+  "namespace": "celltrace.s.aa3",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "PER_CONT_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_CONT_DL_HW",
+      "type": "long"
+    },
+    {
+      "name": "PER_CONT_DL_PDCCH",
+      "type": "long"
+    },
+    {
+      "name": "PER_CONT_DL_CAP_LIC",
+      "type": "long"
+    },
+    {
+      "name": "PER_CONT_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_CONT_UL_HW",
+      "type": "long"
+    },
+    {
+      "name": "PER_CONT_UL_PDCCH",
+      "type": "long"
+    },
+    {
+      "name": "PER_CONT_UL_CAP_LIC",
+      "type": "long"
+    },
+    {
+      "name": "PER_SCHED_ACTIVITY_CELL_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_SCHED_ACTIVITY_CELL_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_UE_DL_SUM",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_UE_UL_SUM",
+      "type": "long"
+    },
+    {
+      "name": "CELL_BITRATE_DL_DRB",
+      "type": "long"
+    },
+    {
+      "name": "CELL_MAXBITRATE_DL_DRB",
+      "type": "long"
+    },
+    {
+      "name": "CELL_MINBITRATE_DL_DRB",
+      "type": "long"
+    },
+    {
+      "name": "CELL_BITRATE_UL_DRB",
+      "type": "long"
+    },
+    {
+      "name": "CELL_MAXBITRATE_UL_DRB",
+      "type": "long"
+    },
+    {
+      "name": "CELL_MINBITRATE_UL_DRB",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_UE_DL_MEAN",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_UE_UL_MEAN",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_DRB_DL_SUM",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_DRB_UL_SUM",
+      "type": "long"
+    },
+    {
+      "name": "RRC_CONN_UL_OUT_OF_SYNC",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_VOIP_QUALITY_UL_OK",
+      "type": "long"
+    },
+    {
+      "name": "PER_UE_VOIP_QUALITY_UL_NOK",
+      "type": "long"
+    },
+    {
+      "name": "NOT_ENOUGH_VOIP_DELAY_SAMPLES",
+      "type": "long"
+    },
+    {
+      "name": "PER_CELL_CCE_AVAIL",
+      "type": "long"
+    },
+    {
+      "name": "PER_CELL_PRB_USED_INIT_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_CELL_PRB_USED_RETX_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_CELL_DRB_SAMP",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_CELL_UL_SUM_LCG0",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_CELL_UL_SUM_LCG1",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_CELL_UL_SUM_LCG2",
+      "type": "long"
+    },
+    {
+      "name": "PER_ACTIVE_CELL_UL_SUM_LCG3",
+      "type": "long"
+    },
+    {
+      "name": "RA_UNASSIGNED_CFRA_FALSE",
+      "type": "long"
+    },
+    {
+      "name": "RA_UNASSIGNED_CFRA_SUM",
+      "type": "long"
+    }
+  ]
+}

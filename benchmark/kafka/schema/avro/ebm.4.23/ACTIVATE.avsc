@@ -1,0 +1,552 @@
+{
+  "type": "record",
+  "name": "ACTIVATE",
+  "namespace": "ebm.4.23",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "HEADER_EVENT_ID",
+      "type": "int"
+    },
+    {
+      "name": "HEADER_EVENT_RESULT",
+      "type": "int"
+    },
+    {
+      "name": "HEADER_TIME_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "HEADER_TIME_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "HEADER_TIME_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "ACTIVATION_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "RAT",
+      "type": "int"
+    },
+    {
+      "name": "CAUSE_PROT_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "SUB_CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_MCC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_MNC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_LAC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_RAC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_CI",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_SAC",
+      "type": "int"
+    },
+    {
+      "name": "IMSI",
+      "type": "string"
+    },
+    {
+      "name": "IMEISV",
+      "type": "string"
+    },
+    {
+      "name": "GGSN",
+      "type": "string"
+    },
+    {
+      "name": "APN",
+      "type": "string"
+    },
+    {
+      "name": "HOMEZONE_IDENTITY",
+      "type": "bytes"
+    },
+    {
+      "name": "MSISDN",
+      "type": "string"
+    },
+    {
+      "name": "NSAPI",
+      "type": "int"
+    },
+    {
+      "name": "LINKED_NSAPI",
+      "type": "int"
+    },
+    {
+      "name": "MS_ADDRESS_IPV4",
+      "type": "string"
+    },
+    {
+      "name": "MS_ADDRESS_IPV6",
+      "type": "string"
+    },
+    {
+      "name": "TIME_MILLISECOND",
+      "type": "int"
+    },
+    {
+      "name": "DURATION",
+      "type": "int"
+    },
+    {
+      "name": "REQUEST_RETRIES",
+      "type": "int"
+    },
+    {
+      "name": "PTMSI",
+      "type": "long"
+    },
+    {
+      "name": "MS_REQUESTED_APN",
+      "type": "string"
+    },
+    {
+      "name": "QOS_REQUESTED_RELIABILITY_CLASS",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_DELAY_CLASS",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_PRECEDENCE_CLASS",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_PEAK_THROUGHPUT",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_MEAN_THROUGHPUT",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_DELIVERY_OF_ERR_SDU",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_DELIVERY_ORDER",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_TRAFFIC_CLASS",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_MAX_SDU_SIZE",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_MBR_UL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_MBR_DL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_SDU_ERROR_RATIO",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_RESIDUAL_BER",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_TRAFFIC_HANDLING_PRIORITY",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_TRANSFER_DELAY",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_GBR_UL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_GBR_DL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_SOURCE_STATISTICS_DESCRIPTOR",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_REQUESTED_SIGNALLING_INDICATION",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_EPS_REQUESTED_BEARER_QCI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_EPS_REQUESTED_EPS_ARP_PL",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_EPS_REQUESTED_EPS_ARP_PCI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_EPS_REQUESTED_EPS_ARP_PVI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_EPS_REQUESTED_EPS_GBR_UL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_EPS_REQUESTED_EPS_GBR_DL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_EPS_REQUESTED_EPS_MBR_UL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_EPS_REQUESTED_EPS_MBR_DL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_RELIABILITY_CLASS",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_DELAY_CLASS",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_PRECEDENCE_CLASS",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_PEAK_THROUGHPUT",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_MEAN_THROUGHPUT",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_DELIVERY_OF_ERR_SDU",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_DELIVERY_ORDER",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_TRAFFIC_CLASS",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_MAX_SDU_SIZE",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_MBR_UL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_MBR_DL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_SDU_ERROR_RATIO",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_RESIDUAL_BER",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_TRAFFIC_HANDLING_PRIORITY",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_TRANSFER_DELAY",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_GBR_UL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_GBR_DL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_SOURCE_STATISTICS_DESCRIPTOR",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_SIGNALLING_INDICATION",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_ARP_PL",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_ARP_PCI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_NEGOTIATED_ARP_PVI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_EPS_NEGOTIATED_BEARER_QCI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_EPS_NEGOTIATED_EPS_ARP_PL",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_EPS_NEGOTIATED_EPS_ARP_PCI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_EPS_NEGOTIATED_EPS_ARP_PVI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "QOS_EPS_NEGOTIATED_EPS_GBR_UL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_EPS_NEGOTIATED_EPS_GBR_DL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_EPS_NEGOTIATED_EPS_MBR_UL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_EPS_NEGOTIATED_EPS_MBR_DL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_EPS_NEGOTIATED_APN_AMBR_UL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "QOS_EPS_NEGOTIATED_APN_AMBR_DL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    }
+  ]
+}

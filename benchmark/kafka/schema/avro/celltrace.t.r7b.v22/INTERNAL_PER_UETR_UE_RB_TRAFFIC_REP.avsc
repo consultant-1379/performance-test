@@ -1,0 +1,151 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PER_UETR_UE_RB_TRAFFIC_REP",
+  "namespace": "celltrace.t.r7b.v22",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "BEARER_ID",
+      "type": "int"
+    },
+    {
+      "name": "BEARER_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "ERAB_ID",
+      "type": "int"
+    },
+    {
+      "name": "PER_DRB_PDCP_ACKVOL_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PDCP_TRANSVOL_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PDCP_RECVOL_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_DL_RLC_DELAY",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_DL_RLC_DELAY_SAMPL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_LAT_TIME_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_LAT_SAMPL_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PACKET_DISC_AQM_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PACKET_LOST_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PACKET_REC_UL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PDCPLASTTTI_TRANSVOL_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_THP_TIME_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PACKET_REC_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PACKET_LOST_PELR_DL",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PACKET_TR_DL_RLCAM",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PACKET_TR_DL_RLCUM",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PACKET_LOST_PELR_UU_DL_RLCAM",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PACKET_LOST_PELR_UU_DL_RLCUM",
+      "type": "long"
+    },
+    {
+      "name": "PER_DRB_PACKET_LOST_HO_DL",
+      "type": "long"
+    }
+  ]
+}

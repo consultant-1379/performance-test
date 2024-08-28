@@ -1,0 +1,159 @@
+{
+  "type": "record",
+  "name": "ISRAU",
+  "namespace": "ebm.4.11",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "HEADER_EVENT_ID",
+      "type": "int"
+    },
+    {
+      "name": "HEADER_EVENT_RESULT",
+      "type": "int"
+    },
+    {
+      "name": "HEADER_TIME_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "HEADER_TIME_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "HEADER_TIME_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "RAT",
+      "type": "int"
+    },
+    {
+      "name": "UPDATE_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "SUB_CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_MCC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_MNC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_LAC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_RAC",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_CI",
+      "type": "int"
+    },
+    {
+      "name": "LOCATION_SAC",
+      "type": "int"
+    },
+    {
+      "name": "IMSI",
+      "type": "string"
+    },
+    {
+      "name": "PTMSI",
+      "type": "long"
+    },
+    {
+      "name": "IMEISV",
+      "type": "string"
+    },
+    {
+      "name": "OLD_SGSN",
+      "type": "string"
+    },
+    {
+      "name": "OLD_LOCATION_OLD_MCC",
+      "type": "int"
+    },
+    {
+      "name": "OLD_LOCATION_OLD_MNC",
+      "type": "int"
+    },
+    {
+      "name": "OLD_LOCATION_OLD_LAC",
+      "type": "int"
+    },
+    {
+      "name": "OLD_LOCATION_OLD_RAC",
+      "type": "int"
+    },
+    {
+      "name": "HLR",
+      "type": "string"
+    },
+    {
+      "name": "TRANSFERRED_PDP",
+      "type": "int"
+    },
+    {
+      "name": "DROPPED_PDP",
+      "type": "int"
+    },
+    {
+      "name": "HOMEZONE_IDENTITY",
+      "type": "bytes"
+    },
+    {
+      "name": "MSISDN",
+      "type": "string"
+    },
+    {
+      "name": "PDP_INFO_NSAPI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "PDP_INFO_GGSN",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "PDP_INFO_MS_ADDRESS_IPV4",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "PDP_INFO_MS_ADDRESS_IPV6",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "CAUSE_PROT_TYPE",
+      "type": "int"
+    }
+  ]
+}

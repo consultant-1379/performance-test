@@ -1,0 +1,1 @@
+java -DschemaRegistry.address=http://ieatrcxb3650.athtem.eei.ericsson.se:8081  -jar /simulator/producer_simulator.jar /simulator/producer.props &

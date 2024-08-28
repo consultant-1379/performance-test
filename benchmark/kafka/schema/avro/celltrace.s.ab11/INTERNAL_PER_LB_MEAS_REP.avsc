@@ -1,0 +1,67 @@
+{
+  "type": "record",
+  "name": "INTERNAL_PER_LB_MEAS_REP",
+  "namespace": "celltrace.s.ab11",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "UL_LOAD_EVALUATION_VALUE",
+      "type": "int"
+    },
+    {
+      "name": "DL_LOAD_EVALUATION_VALUE",
+      "type": "int"
+    },
+    {
+      "name": "UL_PRB_USAGE_RATIO",
+      "type": "int"
+    },
+    {
+      "name": "DL_PRB_USAGE_RATIO",
+      "type": "int"
+    },
+    {
+      "name": "UL_CELL_CAPACITY_VALUE",
+      "type": "int"
+    },
+    {
+      "name": "DL_CELL_CAPACITY_VALUE",
+      "type": "int"
+    }
+  ]
+}

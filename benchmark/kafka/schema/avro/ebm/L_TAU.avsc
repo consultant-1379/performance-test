@@ -1,0 +1,309 @@
+{
+  "type": "record",
+  "name": "L_TAU",
+  "namespace": "ebm",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "L_HEADER_HEADER_EVENT_ID",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_EVENT_RESULT",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_TIME_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_TIME_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_HEADER_TIME_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_TIME_MILLISECOND",
+      "type": "int"
+    },
+    {
+      "name": "L_HEADER_DURATION",
+      "type": "int"
+    },
+    {
+      "name": "TAU_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "L_CAUSE_PROT_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "SUB_CAUSE_CODE",
+      "type": "int"
+    },
+    {
+      "name": "TAI_MCC",
+      "type": "int"
+    },
+    {
+      "name": "TAI_MNC",
+      "type": "int"
+    },
+    {
+      "name": "TAI_TAC",
+      "type": "int"
+    },
+    {
+      "name": "ECI",
+      "type": "long"
+    },
+    {
+      "name": "MMEI_MMEGI",
+      "type": "int"
+    },
+    {
+      "name": "MMEI_MMEC",
+      "type": "int"
+    },
+    {
+      "name": "UEID_MTMSI",
+      "type": "long"
+    },
+    {
+      "name": "UEID_IMSI",
+      "type": "string"
+    },
+    {
+      "name": "UEID_IMEISV",
+      "type": "string"
+    },
+    {
+      "name": "BEARERS_EPS_BEARER_ID",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_BEARER_QCI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_ARP_PL",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_ARP_PCI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_ARP_PVI",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_GBR_UL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "BEARERS_GBR_DL",
+      "type": {
+        "type": "array",
+        "items": "long"
+      }
+    },
+    {
+      "name": "BEARERS_BEARER_CAUSE",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "BEARERS_DEFAULT_BEARER_ID",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "S_GW_IPV4",
+      "type": "string"
+    },
+    {
+      "name": "S_GW_IPV6",
+      "type": "string"
+    },
+    {
+      "name": "PDNS_DEFAULT_BEARER_ID",
+      "type": {
+        "type": "array",
+        "items": "int"
+      }
+    },
+    {
+      "name": "PDNS_PAA_IPV4",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "PDNS_PAA_IPV6",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "PDNS_P_GW_IPV4",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "PDNS_P_GW_IPV6",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "OLD_TAI_OLD_MCC",
+      "type": "int"
+    },
+    {
+      "name": "OLD_TAI_OLD_MNC",
+      "type": "int"
+    },
+    {
+      "name": "OLD_TAI_OLD_TAC",
+      "type": "int"
+    },
+    {
+      "name": "OLD_MME_MMEGI",
+      "type": "int"
+    },
+    {
+      "name": "OLD_MME_MMEC",
+      "type": "int"
+    },
+    {
+      "name": "OLD_MTMSI",
+      "type": "long"
+    },
+    {
+      "name": "OLD_S_GW_IPV4",
+      "type": "string"
+    },
+    {
+      "name": "OLD_S_GW_IPV6",
+      "type": "string"
+    },
+    {
+      "name": "REQUEST_RETRIES",
+      "type": "int"
+    },
+    {
+      "name": "COMBINED_TAU_TYPE",
+      "type": "int"
+    },
+    {
+      "name": "SMS_ONLY",
+      "type": "int"
+    },
+    {
+      "name": "OLD_RAI_MCC",
+      "type": "int"
+    },
+    {
+      "name": "OLD_RAI_MNC",
+      "type": "int"
+    },
+    {
+      "name": "OLD_RAI_LAC",
+      "type": "int"
+    },
+    {
+      "name": "OLD_RAI_RAC",
+      "type": "int"
+    },
+    {
+      "name": "OLD_SGSN_IP_IPV4",
+      "type": "string"
+    },
+    {
+      "name": "OLD_SGSN_IP_IPV6",
+      "type": "string"
+    },
+    {
+      "name": "MSISDN",
+      "type": "string"
+    },
+    {
+      "name": "MSC_IPV4",
+      "type": "string"
+    },
+    {
+      "name": "MSC_IPV6",
+      "type": "string"
+    },
+    {
+      "name": "TARGET_LAI_MCC",
+      "type": "int"
+    },
+    {
+      "name": "TARGET_LAI_MNC",
+      "type": "int"
+    },
+    {
+      "name": "TARGET_LAI_LAC",
+      "type": "int"
+    },
+    {
+      "name": "PERIODIC_TAU_TIMER",
+      "type": "long"
+    },
+    {
+      "name": "UE_RESTORATION",
+      "type": "int"
+    },
+    {
+      "name": "SGW_RELOCATION",
+      "type": "int"
+    },
+    {
+      "name": "UE_RETURN_DURATION",
+      "type": "int"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+bootstrap.servers=ieatrcxb3651.athtem.eei.ericsson.se:9092
+acks=all
+retries=10
+batch.size=16384
+linger.ms=0
+key.serializer=org.apache.kafka.common.serialization.StringSerializer
+value.serializer=com.ericsson.aia.common.avro.kafka.encoder.KafkaGenericRecordEncoder
+test.messageGenerator.class=com.ericsson.asr.sim.event.CellTraceEvents
+test.messageServiceTypes=kafka:/
+test.maxWaitingTime=36000
+test.NumberOfMessages=250000
+test.topic=scenario8
+test.NumberOfThreads=5
+compression.type=gzip

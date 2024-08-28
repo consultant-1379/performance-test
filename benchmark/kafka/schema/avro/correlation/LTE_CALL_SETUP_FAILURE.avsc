@@ -1,0 +1,87 @@
+{
+  "type": "record",
+  "name": "LTE_CALL_SETUP_FAILURE",
+  "namespace": "correlation",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "START_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "END_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "IMSI",
+      "type": "long"
+    },
+    {
+      "name": "IMEISV",
+      "type": "long"
+    },
+    {
+      "name": "IMEITAC",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "string"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "long"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "RESULT",
+      "type": "string"
+    },
+    {
+      "name": "ENB_RESULT",
+      "type": "string"
+    },
+    {
+      "name": "ENB_RESULT_CAUSE",
+      "type": "string"
+    },
+    {
+      "name": "MME_RESULT",
+      "type": "string"
+    },
+    {
+      "name": "MME_CAUSE_CODE",
+      "type": "string"
+    },
+    {
+      "name": "IPRCS",
+      "type": "boolean"
+    },
+    {
+      "name": "IPSSCS",
+      "type": "boolean"
+    },
+    {
+      "name": "IPICS",
+      "type": "boolean"
+    }
+  ]
+}

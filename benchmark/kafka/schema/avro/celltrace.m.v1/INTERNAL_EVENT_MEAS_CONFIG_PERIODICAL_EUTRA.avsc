@@ -1,0 +1,103 @@
+{
+  "type": "record",
+  "name": "INTERNAL_EVENT_MEAS_CONFIG_PERIODICAL_EUTRA",
+  "namespace": "celltrace.m.v1",
+  "fields": [
+    {
+      "name": "_NE",
+      "type": "string"
+    },
+    {
+      "name": "_TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "TIMESTAMP_HOUR",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MINUTE",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_SECOND",
+      "type": "int"
+    },
+    {
+      "name": "TIMESTAMP_MILLISEC",
+      "type": "int"
+    },
+    {
+      "name": "SCANNER_ID",
+      "type": "long"
+    },
+    {
+      "name": "RBS_MODULE_ID",
+      "type": "int"
+    },
+    {
+      "name": "GLOBAL_CELL_ID",
+      "type": "long"
+    },
+    {
+      "name": "ENBS1APID",
+      "type": "long"
+    },
+    {
+      "name": "MMES1APID",
+      "type": "long"
+    },
+    {
+      "name": "GUMMEI",
+      "type": "bytes"
+    },
+    {
+      "name": "RAC_UE_REF",
+      "type": "int"
+    },
+    {
+      "name": "TRACE_RECORDING_SESSION_REFERENCE",
+      "type": "bytes"
+    },
+    {
+      "name": "MEASUREMENT_ID",
+      "type": "int"
+    },
+    {
+      "name": "MEAS_OBJECT_ID",
+      "type": "int"
+    },
+    {
+      "name": "MEAS_REQUESTER",
+      "type": "int"
+    },
+    {
+      "name": "PERIODICAL_PURPOSE",
+      "type": "int"
+    },
+    {
+      "name": "TRIGGER_QUANTITY",
+      "type": "int"
+    },
+    {
+      "name": "REPORT_QUANTITY",
+      "type": "int"
+    },
+    {
+      "name": "ARFCN",
+      "type": "long"
+    },
+    {
+      "name": "MAX_REPORT_CELLS",
+      "type": "int"
+    },
+    {
+      "name": "REPORT_INTERVAL",
+      "type": "int"
+    },
+    {
+      "name": "REPORT_AMOUNT",
+      "type": "int"
+    }
+  ]
+}
